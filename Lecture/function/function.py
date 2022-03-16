@@ -66,3 +66,5 @@ def add_mul(choice, *args):
         return result
 
 print(add_mul('mul', 5,4,2,4,6,2,3,1,23,3,5,2))
+
+
