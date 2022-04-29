@@ -34,3 +34,4 @@ pyautogui.scroll(-2) # Down
 pyautogui.scroll(-3, x = 50, y= 366) # Move to 50, 366, and scoll up 3 clicks
 
 
+

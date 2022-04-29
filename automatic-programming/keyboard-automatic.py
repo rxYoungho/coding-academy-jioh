@@ -34,5 +34,9 @@ pyautogui.keyDown('command') # 커맨드를 누르고 있어라
 pyautogui.press('v') # 누른 상태에서 v를 눌러라
 pyautogui.keyUp('command') # 그리고 command를 때라
 
+# Multiple presses 
+pyautogui.press(['J', 'I', 'O', 'N'])
+pyautogui.press('left', presses=3) # presses = 반복 갯수
+pyautogui.press('left', presses=3, interval=0.5) # presses = 반복 갯수
 
-
+# pyautogui.hotkey('command', 'c')
