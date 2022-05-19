@@ -4,5 +4,7 @@
 from matplotlib import image
 import pyautogui as pg 
 
-imageLocation = pg.locateCenterOnScreen('naver2.png') # naver이미지가 있는 위치 가져옴
+imageLocation = pg.locateCenterOnScreen('A_0.png', grayscale=True, confidence=0.5) # naver이미지가 있는 위치 가져옴
+print(imageLocation)
 pg.click(imageLocation)
+
